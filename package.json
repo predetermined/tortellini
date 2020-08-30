@@ -1,14 +1,18 @@
 {
   "name": "tortellini",
-  "version": "1.0.0",
-  "description": "A minimal code editor \uD83D\uDC22",
+  "version": "1.0.0-rc1",
+  "description": "A minimal code editor 🐢",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/l2ig/tortellini.git"
   },
-  "keywords": ["code-editor", "javascript-editor", "browser-editor"],
+  "keywords": [
+    "code-editor",
+    "javascript-editor",
+    "browser-editor"
+  ],
   "author": "Leonard Ginters",
   "license": "LGPL-2.1",
   "bugs": {
