@@ -1,6 +1,6 @@
 {
   "name": "tortellini",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-alpha.0",
   "description": "A minimal code editor 🐢",
   "main": "index.js",
   "scripts": {},
