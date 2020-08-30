@@ -8,6 +8,7 @@ Tortellini is minimal code editor written in TypeScript.
 ## Example Usage
 ```typescript
 import { Tortellini } from "tortellini";
+                         // https://unpkg.com/tortellini/index.js
 
 const editor = new Tortellini(
     document.querySelector("[data-editor]"),
