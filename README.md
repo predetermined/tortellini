@@ -1,5 +1,5 @@
 # Tortellini 🥟
-Tortellini is minimal code editor written in TypeScript.
+Tortellini is a minimal code editor written in TypeScript.
 
 ## Features
 - Syntax highlighting
