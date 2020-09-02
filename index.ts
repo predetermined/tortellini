@@ -20,7 +20,7 @@ interface ColorOption {
         string: string;
         flags?: string;
         replacement?: string;
-    }
+    };
     class: string;
 }
 
@@ -63,7 +63,7 @@ const languages: { [language: string]: Language; } = {
                 class: "||comments"
             }],
         suggestions: [
-            "const", "let", "for", "white", "of", "new",
+            "const", "let", "for", "while", "of", "new",
             "document", "Document", "String", "Number", "Array", "Object",
             ...Object.getOwnPropertyNames(Document.prototype).filter((property: string) => !property.includes("queryCommand")),
             ...Object.getOwnPropertyNames(HTMLElement.prototype),
