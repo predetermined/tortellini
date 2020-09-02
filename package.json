@@ -1,6 +1,6 @@
 {
   "name": "tortellini",
-  "version": "1.0.0-alpha.12",
+  "version": "1.0.0-alpha.13",
   "description": "A minimal code editor 🐢",
   "main": "index.js",
   "scripts": {},
@@ -11,7 +11,8 @@
   "keywords": [
     "code-editor",
     "javascript-editor",
-    "browser-editor"
+    "browser-editor",
+    "html-editor"
   ],
   "author": "Leonard Ginters",
   "license": "LGPL-2.1",
