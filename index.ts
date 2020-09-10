@@ -6,7 +6,6 @@ interface Language {
 
 interface ModernSelection extends Selection {
     [key: string]: any;
-
     modify: (action, direction, unit) => void;
 }
 
@@ -29,7 +28,7 @@ const languages: { [language: string]: Language; } = {
         colors: [
             {
                 regex: {
-                    string: "(class|this|var|const|let|if|else|document|window|do|forEach|for|return|switch|try|catch|function|continue|debugger|break|while|true|null|undefined|false|new|await|async|of)(?=( |;|\\.|{|}|\\=|\\(|\\)))(?!(| )<\\/(.*)>)",
+                    string: "(class|this|var|const|let|if|else|document|window|do|forEach|for|return|switch|try|catch|function|continue|debugger|break|while|true|null|undefined|false|new|await|async|of)(?=( |;|,|\\.|{|}|\\=|\\(|\\)))(?!(| )<\\/(.*)>)",
                     flags: "gi",
                 },
                 class: "||general"
