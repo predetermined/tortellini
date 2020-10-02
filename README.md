@@ -28,7 +28,7 @@ const options = {
 ```
 ### Supported Languages
 * JavaScript `javascript`
-* HTML `html`
+* HTML `html` (Experimental)
 * CSS `css`
 
 ## Instance functions
